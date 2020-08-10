@@ -1,7 +1,10 @@
 package com.WebApp.CodeStruction.service;
 
+import com.WebApp.CodeStruction.domain.User;
+import com.WebApp.CodeStruction.model.UserModel;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
