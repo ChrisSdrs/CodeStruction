@@ -3,23 +3,23 @@ package com.WebApp.CodeStruction.mappers;
 
 import com.WebApp.CodeStruction.domain.Repair;
 import com.WebApp.CodeStruction.forms.RepairForm;
+import com.WebApp.CodeStruction.model.RepairModel;
 import org.springframework.stereotype.Component;
 
 @Component
 public class RepairToRepairModelMapper {
 
-    public Repair mapToRepairModel(RepairForm repairForm) {
-        Repair repair = new Repair();
-        repair.setId(repairForm.getId());
-        repair.setDate(repairForm.getDate());
-        repair.setStatus(repairForm.getStatus());
-        repair.setCategory(repairForm.getCategory());
-        repair.setType(repairForm.getType());
-        repair.setCost(repairForm.getCost());
-        repair.setAddress(repairForm.getAddress());
-        repair.setOwner(repairForm.getOwner());
-        repair.setDescription(repairForm.getDescription());
-        return repair;
-
+    public RepairModel mapToRepairModel(Repair repair) {
+        RepairModel repairModel = new RepairModel();
+        repairModel.setId(repair.getId());
+        repairModel.setDate(repair.getDate());
+        repairModel.setStatus(repair.getStatus());
+        repairModel.setCategory(repair.getCategory());
+        repairModel.setType(repair.getType());
+        repairModel.setCost(repair.getCost());
+        repairModel.setAddress(repair.getAddress());
+        repairModel.setOwner(repair.getOwner());
+        repairModel.setDescription(repair.getDescription());
+        return repairModel;
     }
 }

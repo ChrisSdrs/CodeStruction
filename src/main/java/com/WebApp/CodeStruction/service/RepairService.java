@@ -1,9 +1,11 @@
 package com.WebApp.CodeStruction.service;
 
 import com.WebApp.CodeStruction.domain.Repair;
+import com.WebApp.CodeStruction.model.RepairModel;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -36,5 +38,4 @@ public interface RepairService {
     List<RepairModel> findByOwnerAndDateBetween(String owner, LocalDate dateBefore, LocalDate dateAfter);
 
     List<RepairModel> findTop10ByDateOrderByDateAsc(LocalDate dateBefore);
-
 }
