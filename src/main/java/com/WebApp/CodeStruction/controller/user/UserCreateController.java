@@ -58,8 +58,8 @@ public class UserCreateController {
                 String encodedPW = encoder.encode(password);
                 user.setPassword(encodedPW);
                 userService.createUser(user);
-                redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
-                redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "User Created Successfully!");
+//                redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
+//                redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "User Created Successfully!");
                 return "redirect:/admin/users";
             } else {
                 model.addAttribute(USERS_FORM, userCreateForm);

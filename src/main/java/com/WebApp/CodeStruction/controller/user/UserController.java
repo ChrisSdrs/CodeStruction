@@ -23,11 +23,14 @@ public class UserController {
     private UserService userService;
 
     @GetMapping(value="/admin/users")
-    public String users(Model model, @ModelAttribute(ALERT_TYPE) String alertType, @ModelAttribute(ALERT_MESSAGE) String alertMessage) {
+    public String users(Model model
+//                        @ModelAttribute(ALERT_TYPE) String alertType,
+//                        @ModelAttribute(ALERT_MESSAGE) String alertMessage
+                       ) {
         List<UserModel> users = userService.findByRole("Owner");
         model.addAttribute(USER_LIST, users);
-        model.addAttribute(ALERT_TYPE, alertType);
-        model.addAttribute(ALERT_MESSAGE, alertMessage);
+//        model.addAttribute(ALERT_TYPE, alertType);
+//        model.addAttribute(ALERT_MESSAGE, alertMessage);
         return "pages/users_show";
     }
 

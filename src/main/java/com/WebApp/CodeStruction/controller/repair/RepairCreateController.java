@@ -52,8 +52,8 @@ public class RepairCreateController {
         Repair repair = mapper.mapToRepairModel(repairForm);
         if (isValidRepairEmptyFields(repair)){
             repairService.createRepair(repair);
-            redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
-            redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Repair Created Successfully!");
+//            redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
+//            redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Repair Created Successfully!");
             return "redirect:/admin/repairs";
         }
         else {

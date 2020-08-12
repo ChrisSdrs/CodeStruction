@@ -25,8 +25,8 @@ public class PropertyEditController {
         PropertyModel propertyModel = propertyService.findById(id).get();
         model.addAttribute(PROPERTY_FORM, new PropertyForm());
         model.addAttribute(PROPERTY, propertyModel);
-        redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
-        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Property Edited successfully!");
+//        redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
+//        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Property Edited successfully!");
         return "pages/property_edit";
     }
 
@@ -39,8 +39,8 @@ public class PropertyEditController {
     @PostMapping(value = "/admin/properties/{id}/delete")
     public String deleteProperty(@PathVariable Long id, RedirectAttributes redirectAttrs) {
         propertyService.deleteById(id);
-        redirectAttrs.addFlashAttribute(ALERT_TYPE, "info");
-        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Property Deleted successfully!");
+//        redirectAttrs.addFlashAttribute(ALERT_TYPE, "info");
+//        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Property Deleted successfully!");
         return "redirect:/admin/properties";
     }
 }

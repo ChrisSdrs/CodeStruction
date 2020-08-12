@@ -53,8 +53,8 @@ public class PropertyCreateController {
         if(isValidPropertyEmptyFields(property)) {
             if (isValidProperty(property) == "") {
                 propertyService.createProperty(property);
-                redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
-                redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Property Created Successfully!");
+//                redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
+//                redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Property Created Successfully!");
                 return "redirect:/admin/properties";
             }
             else {
