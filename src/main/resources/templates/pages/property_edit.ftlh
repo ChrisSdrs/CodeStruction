@@ -3,6 +3,7 @@
 
 <html>
 <head>
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/602/602182.svg">
     <title>Properties</title>
     <#include "../partials/head.ftlh">
 </head>

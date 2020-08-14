@@ -28,6 +28,7 @@ li.navbar-header {
 
 img.sidebar-logo {
     width: 60px;
+    margin-right: 10px;
 }
 img.coming-soon {
     width: 100%;
@@ -199,6 +200,7 @@ a.navbar-brand {
 .navbar-username-holder {
     color: white;
     float:left;
+    margin-right: 20px;
 }
 span.username-text {
     color: cyan;

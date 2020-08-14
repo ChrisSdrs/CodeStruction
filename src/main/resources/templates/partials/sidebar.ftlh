@@ -2,20 +2,6 @@
     <div class="sidebar-sticky">
         <ul class="nav flex-column">
 
-            <li class="nav-item
-                <#if page?has_content>
-                    <#if
-                page == "Home">active
-                    </#if>
-                </#if>
-
-            ">
-                <a class="nav-link" href="/home">
-                    <img src="https://img.icons8.com/wired/64/000000/speed.png" class="nav-link-icon">
-
-                    <div class="sidebar-link-text">Home</div>
-                </a>
-            </li>
         <#if userRole?has_content>
             <#if
         userRole == "Admin">
