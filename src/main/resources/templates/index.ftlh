@@ -3,7 +3,6 @@
 
     <!-- Basic -->
     <meta charset="utf-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Mobile Metas -->
@@ -40,7 +39,6 @@
     <!-- LOADER -->
     <div id="preloader">
         <div id="main-ld">
-
 			<div id="loader"></div>
 		</div>
     </div><!-- end loader -->

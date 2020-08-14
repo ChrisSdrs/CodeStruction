@@ -18,7 +18,7 @@ INSERT INTO USER (user_ssn, user_first_name, user_last_name, user_address, user_
 
 INSERT INTO REPAIR (repair_date,repair_address, repair_cost, repair_description, repair_owner, repair_status, repair_category, repair_type) VALUES ('2019-12-10 12:34:56', '1234 Main St, Athens, Greece' , 2500, '', '348972198', 'In Progress', 'Interior','Electrical');
 
-INSERT INTO REPAIR (repair_date,repair_address, repair_cost, repair_description, repair_owner, repair_status, repair_category, repair_type) VALUES ('2019-12-12 12:34:56', '1234 Main St, Athens, Greece' , 500, '', '348972198', 'Completed', 'Interior','Plumbing');
+INSERT INTO REPAIR (repair_date,repair_address, repair_cost, repair_description, repair_owner, repair_status, repair_category, repair_type) VALUES ('2020-08-14 12:34:56', '1234 Main St, Athens, Greece' , 500, '', '348972198', 'Completed', 'Interior','Plumbing');
 
 
 INSERT INTO PROPERTY (property_pin, property_address, property_year, property_type, property_owner) VALUES ('12345', '1234 Main St, Athens, Greece', 2018, 'Maisonette', '348972198');
