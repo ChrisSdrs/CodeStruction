@@ -9,13 +9,13 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
      <!-- Site Metas -->
-    <title>Code-Struction</title>
+    <title>Code.Struction</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="/website/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/images/logo/codestructionhomelogo.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/website/images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
@@ -48,7 +48,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-			<img class="img-fluid" id="homeLogo" src="/images/logo/codestructionlogo.png" alt="" />
+			<img class="img-fluid" id="homeLogo" src="/images/logo/codestructionhomelogo.png" alt="" />
 		</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -86,7 +86,7 @@
 	<section id="home" class="main-banner parallaxie" style="background: url(https://wallpapercave.com/wp/wp1842341.jpg)">
 		<div class="heading">
 			<h1>Engineering your dreams with us</h1>
-			<p>"Building the future. <br>  Restoring the past."</p>
+			<p>"Building the future <br>  Restoring the past"</p>
 			<h3 class="cd-headline clip is-full-width">
                 <span>Leave the</span>
                 <span class="cd-words-wrapper">
@@ -366,9 +366,9 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="message-box">
-                        <h2>About Code-Struction</h2>
-                        <p>For over 30 years, commitment to our Core Values has made Code-Struction the ideal building partner for the region’s most forward-thinking organizations.</p>
-                        <p>Our success comes from a steadfast commitment to the client’s vision and a culture of balance, integrity, leadership and loyalty. At Code-Struction, we transform the construction experience through creation of an environment that fosters collaboration and project team engagement.</p>
+                        <h2>About Code.Struction</h2>
+                        <p>For over 30 years, commitment to our Core Values has made Code.Struction the ideal building partner for the region’s most forward-thinking organizations.</p>
+                        <p>Our success comes from a steadfast commitment to the client’s vision and a culture of balance, integrity, leadership and loyalty. At Code.Struction, we transform the construction experience through creation of an environment that fosters collaboration and project team engagement.</p>
                         <p>With a workplace that attracts and retains the best employees in every field. We are proud of the dedication, skill, and integrity of each of our employees, and their unique contributions in building our high-performance teams.</p>
 
                         <a href="/login" class="sim-btn btn-hover-new" data-text="Now"><span>Login</span></a>
@@ -388,14 +388,13 @@
         <div class="container">
             <div class="section-title text-left">
                 <h3>Contact</h3>
-                <p>El. Venizelou 154 & Romylias - Kastri N. Erythrea, PC 146 71</p>
+                <p>Neo Iraklio, Opposite Eirini ISAP Station, PC 141 21</p>
             </div><!-- end title -->
 
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact_form">
-                        <iframe width="797" height="513" id="gmap_canvas" src="https://maps.google.com/maps?q=excelixi%20kastri&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="
-">
+                        <iframe width="797" height="513" id="gmap_canvas" src="https://maps.google.com/maps?q=aspete&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="">
                         </iframe>
                     </div>
                 </div><!-- end col -->
@@ -413,8 +412,8 @@
                         <a href="#about">About</a>
                         <a href="#contact">Contact</a>
                     </p>
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2019 <a href="#">Code-Struction </a> Design By :
-					<a href="https://gitlab.com/project-future-team-2">Project-future team #2</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2020 <a href="#">Code.Struction </a> Design By :
+					<a href="https://www.linkedin.com/in/christos-sideris-32506b191/">Christos Sideris</a></p>
                 </div>
             </div>
         </div><!-- end container -->
