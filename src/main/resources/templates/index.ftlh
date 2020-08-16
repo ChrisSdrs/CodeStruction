@@ -261,9 +261,9 @@
 
             <div class="col-md-4 col-sm-6 gallery-grid gal_a">
                 <div class="gallery-single fix">
-                    <img src="https://tzakas-hellas.gr/wp-content/uploads/2018/05/maxresdefault.jpg" class="img-fluid" alt="Image">
+                    <img src="https://i.ytimg.com/vi/Sc9OpD58OXk/maxresdefault.jpg" class="img-fluid" alt="Image">
                     <div class="img-overlay">
-                        <a href="https://tzakas-hellas.gr/wp-content/uploads/2018/05/maxresdefault.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                        <a href="https://i.ytimg.com/vi/Sc9OpD58OXk/maxresdefault.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
                     </div>
                 </div>
             </div>
