@@ -18,7 +18,8 @@ jQuery(function ($){
         },
         messages:{
             pin:{
-                required: "Enter pin"
+                required: "Enter pin",
+                digits: "Wrong PIN!! PIN must contain only numbers"
             },
             year:{
                 required: "Enter year of construction"
