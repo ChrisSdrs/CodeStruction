@@ -17,6 +17,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.validation.Valid;
 
+import static com.WebApp.CodeStruction.utils.GlobalAttributes.ALERT_MESSAGE;
+import static com.WebApp.CodeStruction.utils.GlobalAttributes.ALERT_TYPE;
 import static javax.servlet.RequestDispatcher.ERROR_MESSAGE;
 
 @Controller
@@ -58,8 +60,8 @@ public class UserCreateController {
                 String encodedPW = encoder.encode(password);
                 user.setPassword(encodedPW);
                 userService.createUser(user);
-//                redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
-//                redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "User Created Successfully!");
+                redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
+                redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "User Created Successfully!");
                 return "redirect:/admin/users";
             } else {
                 model.addAttribute(USERS_FORM, userCreateForm);

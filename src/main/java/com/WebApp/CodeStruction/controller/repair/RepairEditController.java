@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import static com.WebApp.CodeStruction.utils.GlobalAttributes.ALERT_MESSAGE;
+import static com.WebApp.CodeStruction.utils.GlobalAttributes.ALERT_TYPE;
+
 @Controller
 public class RepairEditController {
 
@@ -24,8 +27,8 @@ public class RepairEditController {
     @PostMapping(value = "/admin/repairs/{id}/delete")
     public String deleteRepair(@PathVariable Long id, RedirectAttributes redirectAttrs) {
         repairService.deleteById(id);
-//        redirectAttrs.addFlashAttribute(ALERT_TYPE, "info");
-//        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Repair Deleted Successfully!");
+        redirectAttrs.addFlashAttribute(ALERT_TYPE, "info");
+        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Repair Deleted Successfully!");
         return "redirect:/admin/repairs";
     }
 
@@ -40,8 +43,8 @@ public class RepairEditController {
     @PostMapping(value = "/admin/repairs/edit")
     public String editRepair(RepairModel repairModel, RedirectAttributes redirectAttrs) {
         repairService.updateRepair(repairModel);
-//        redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
-//        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Repair Edited successfully!");
+        redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
+        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Repair Edited successfully!");
         return "redirect:/admin/repairs";
     }
 }

@@ -3,7 +3,8 @@
 
 <html>
 <head>
-    <title>Repairs</title>
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/552/552997.svg">
+    <title>Repair Create</title>
     <#include "../partials/head.ftlh">
 </head>
 <body>

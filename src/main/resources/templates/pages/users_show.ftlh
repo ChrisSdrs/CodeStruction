@@ -1,6 +1,7 @@
 <html>
 <head>
-    <title>Users</title>
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/554/554846.svg">
+    <title>Owners</title>
     <#include "../partials/head.ftlh">
 </head>
 <body>

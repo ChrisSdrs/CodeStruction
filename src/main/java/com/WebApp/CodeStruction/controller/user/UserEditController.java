@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import static com.WebApp.CodeStruction.utils.GlobalAttributes.ALERT_MESSAGE;
+import static com.WebApp.CodeStruction.utils.GlobalAttributes.ALERT_TYPE;
+
 @Controller
 public class UserEditController {
 
@@ -24,8 +27,8 @@ public class UserEditController {
     @PostMapping(value = "/admin/users/{id}/delete")
     public String deleteUser(@PathVariable Long id, RedirectAttributes redirectAttrs) {
         userService.deleteById(id);
-//        redirectAttrs.addFlashAttribute(ALERT_TYPE, "info");
-//        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "User Deleted successfully!");
+        redirectAttrs.addFlashAttribute(ALERT_TYPE, "info");
+        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "User Deleted successfully!");
         return "redirect:/admin/users";
     }
 
@@ -40,8 +43,8 @@ public class UserEditController {
     @PostMapping(value = "/admin/users/edit")
     public String editUser(UserModel userModel, RedirectAttributes redirectAttrs) {
         userService.updateUser(userModel);
-//        redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
-//        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "User Updated successfully!");
+        redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
+        redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "User Updated successfully!");
 
         return "redirect:/admin/users";
     }

@@ -16,6 +16,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.validation.Valid;
 
+import static com.WebApp.CodeStruction.utils.GlobalAttributes.ALERT_MESSAGE;
+import static com.WebApp.CodeStruction.utils.GlobalAttributes.ALERT_TYPE;
 import static javax.servlet.RequestDispatcher.ERROR_MESSAGE;
 
 @Controller
@@ -53,8 +55,8 @@ public class PropertyCreateController {
         if(isValidPropertyEmptyFields(property)) {
             if (isValidProperty(property) == "") {
                 propertyService.createProperty(property);
-//                redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
-//                redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Property Created Successfully!");
+                redirectAttrs.addFlashAttribute(ALERT_TYPE, "success");
+                redirectAttrs.addFlashAttribute(ALERT_MESSAGE, "Property Created Successfully!");
                 return "redirect:/admin/properties";
             }
             else {

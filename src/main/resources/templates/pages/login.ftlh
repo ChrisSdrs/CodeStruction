@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <#include "../partials/head.ftlh">
-    <script src="/static/scripts/loginValid.js"></script>
+    <script src="/static/scripts/loginValidation.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="/static/styles/login.css">
 
-    <title>Signin Template for Bootstrap</title>
+    <title>CodeStrustion Login</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
 

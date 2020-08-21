@@ -10,8 +10,7 @@
                 </div>
             </div>
            <a class="navbar-logout-link" href="/logout">
-            <span>Logout</span>
-               <img src="https://img.icons8.com/ios-filled/50/000000/exit-sign.png" class="logout-icon">
+               <img src="https://image.flaticon.com/icons/svg/857/857682.svg" class="logout-icon">
            </a>
         </li>
     </ul>
