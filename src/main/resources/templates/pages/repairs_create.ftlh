@@ -4,7 +4,7 @@
 <html>
 <head>
     <link rel="icon" href="https://image.flaticon.com/icons/svg/552/552997.svg">
-    <title>Repairs</title>
+    <title>Repair Create</title>
     <#include "../partials/head.ftlh">
 </head>
 <body>
