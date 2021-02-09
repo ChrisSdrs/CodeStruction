@@ -488,7 +488,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #333333e0;
+    background-color: rgba(38, 42, 43, 0.97);
 }
 
 #clouds{

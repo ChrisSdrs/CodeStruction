@@ -50,5 +50,4 @@ public class UserController {
         userService.findBySsnAndEmail(ssn, email).forEach(users -> logger.info(users.toString()));
     }
 
-
 }

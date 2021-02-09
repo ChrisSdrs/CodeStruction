@@ -33,7 +33,7 @@
         <div style="margin-top: 30px;">
             <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
             <div class="checkbox mb-3">
-                <a href="/website"><button class="btn btn-lg btn-info btn-block" type="button">Back to Home</button></a>
+                <a href="/"><button class="btn btn-lg btn-info btn-block" type="button">Back to Home</button></a>
             </div>
         </div>
         <p class="mt-5 mb-3">© 2020-2021</p>
