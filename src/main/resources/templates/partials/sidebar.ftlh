@@ -47,7 +47,7 @@
                 ">
                     <a class="nav-link" href="/admin/users/search">
                         <img src="https://img.icons8.com/ios-glyphs/30/000000/find-user-male.png" class="nav-link-icon">
-                        <div class="sidebar-link-text">Search for Owners</div>
+                        <div class="sidebar-link-text">Search Owner</div>
                     </a>
                 </li>
 
@@ -101,7 +101,7 @@
                 ">
                     <a class="nav-link" href="/admin/repairs/search">
                         <img src="https://img.icons8.com/ios-filled/50/000000/advanced-search.png" class="nav-link-icon">
-                        <div class="sidebar-link-text">Search for repairs</div>
+                        <div class="sidebar-link-text">Search Repair</div>
                     </a>
                 </li>
 
