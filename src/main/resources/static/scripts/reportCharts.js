@@ -12,8 +12,8 @@ window.chartColors = {
 
 (function(global) {
     var months = [
-        'Pending',
         'In Progress',
+        'Pending',
         'Completed'
     ];
 
